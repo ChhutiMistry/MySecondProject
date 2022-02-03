@@ -1,0 +1,226 @@
+body{
+    margin: auto;
+}
+
+header{
+    height: 60px;
+    background-color: #5b1666;
+}
+
+#logo{
+    height: 58px;
+    width: 58px;
+    float: left;
+    border-style: outset;
+}
+
+#name{
+    color: #a868ce;
+    height: 40px;
+    float: left;
+    margin-left: 2%;
+}
+
+#hyperlink{
+    color: #a868ce;
+    text-decoration: none;
+}
+
+#social{
+    text-align: right;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+    margin-top: 0.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#subheading{
+    height: 30px;
+    background-color: #a868ce;
+    font-size: 25px;
+    color: #5b1666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subhead{
+    border-left: #5b1666;
+    border-left-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#hyperserve{
+    color: #5b1666;
+    text-decoration: none;
+}
+
+#background{
+    background-image: url("https://i.ibb.co/zNJtLn8/Background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    display: block;
+    height: 570px;
+}
+
+.heading{
+    font-size: 30px;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.know{
+    text-decoration: none;
+    color: black;
+}
+
+.servicebox{
+    border-style: double;
+    border-width: 6px;
+    height: 360px;
+    width: 350px;
+    margin-bottom: 3%;
+    margin-left: 7%;
+    display: inline-block;
+}
+
+.serviceimage{
+    height: 290px;
+    width: 350px;
+}
+
+.servicename{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#biodata{
+    display: inline-block;
+}
+
+#bioheading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#afterbio{
+    border-bottom: black;
+    border-bottom-style: groove;
+}
+
+#dataone{
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 50%;
+}
+
+#datatwo{
+    font-size: 40px;
+    margin-left: 20%;
+}
+
+#datathree{
+    font-size: 40px;
+    margin-left: 20%;
+}
+
+#bioimage{
+    float: right;
+    margin-right: 7%;
+}
+
+#reviewbox1{
+    border-style: double;
+    border-width: 6px;
+    height: 400px;
+    width: 550px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 7%;
+    display: inline-block;
+}
+
+#reviewimage1{
+    height: 400px;
+    width: 550px;
+}
+
+#reviewbox2{
+    border-style: double;
+    border-width: 6px;
+    height: 400px;
+    width: 550px;
+    margin-bottom: 3%;
+    margin-left: 12%;
+    display: inline-block;
+}
+
+#reviewimage2{
+    height: 400px;
+    width: 550px;
+}
+
+#reviewbox3{
+    border-style: double;
+    border-width: 6px;
+    height: 510px;
+    width: 380px;
+    margin-bottom: 3%;
+    margin-left: 37%;
+    margin-right: 20%;
+    display: inline-block;
+}
+
+#reviewimage3{
+    height: 510px;
+    width: 380px;
+}
+
+#reviewbox4{
+    border-style: double;
+    border-width: 6px;
+    height: 610px;
+    width: 470px;
+    margin-bottom: 3%;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+#reviewimage4{
+    height: 610px;
+    width: 470px;
+}
+
+#reviewbox5{
+    border-style: double;
+    border-width: 6px;
+    height: 600px;
+    width: 500px;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+#reviewimage5{
+    height: 600px;
+    width: 500px;
+}
+
+#copyright{
+    border-top: black;
+    border-top-style: groove;
+    font-size: 30px;
+    text-align: center;
+    background-color: #5b1666;
+    color: #a868ce;
+    font-weight: bolder;
+}

@@ -1,0 +1,115 @@
+body{
+    margin: auto;
+}
+
+header{
+    height: 60px;
+    background-color: #5b1666;
+}
+
+#logo{
+    height: 58px;
+    width: 58px;
+    float: left;
+    border-style: outset;
+}
+
+#name{
+    color: #a868ce;
+    height: 40px;
+    float: left;
+    margin-left: 2%;
+}
+
+#hyperlink{
+    color: #a868ce;
+    text-decoration: none;
+}
+
+#social{
+    text-align: right;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+    margin-top: 0.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#subheading{
+    height: 30px;
+    background-color: #a868ce;
+    font-size: 25px;
+    color: #5b1666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subhead{
+    border-left: #5b1666;
+    border-left-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#hyperserve{
+    color: #5b1666;
+    text-decoration: none;
+}
+
+#picture{
+    box-shadow: -20px 20px 10px #5b1666;
+    float: left;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+#image{
+    height: 400px;
+    width: 600px;
+}
+
+#information{
+    box-shadow: 20px -20px 10px #5b1666;
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+    height: 600px;
+    width: 800px;
+}
+
+#heading{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+.description{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 13%;
+}
+
+#button{
+    font-size: 20px;
+    color: #5b1666;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 70%;
+    border-radius: 10%;
+    box-shadow: 20px 20px 10px #5b1666;
+}
+
+#copyright{
+    border-top: black;
+    border-top-style: groove;
+    margin-top: 665px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #5b1666;
+    color: #a868ce;
+    font-weight: bolder;
+}
