@@ -87,22 +87,24 @@ a{
 }
 
 .description{
-    font-size: 17px;
+    font-size: 22px;
     margin-left: 10%;
     margin-right: 10%;
+    line-height: 2px;
 }
 
 .answer{
-    font-size: 15px;
-    margin-left: 12%;
+    font-size: 20px;
+    margin-left: 13%;
     margin-right: 10%;
+    
 }
 
 #button{
     font-size: 20px;
     color: #5b1666;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 70%;
     border-radius: 10%;
     box-shadow: 20px 20px 10px #5b1666;
