@@ -66,10 +66,6 @@ a{
     border-bottom-style: groove;
 }
 
-#biodata{
-    display: inline-block;
-}
-
 #bioheading{
     font-size: 40px;
     text-align: center;
@@ -83,30 +79,28 @@ a{
 
 #dataone{
     font-size: 40px;
-    margin-left: 20%;
-    margin-top: 50%;
 }
 
 #datatwo{
     font-size: 40px;
-    margin-left: 20%;
 }
 
 #datathree{
     font-size: 40px;
-    margin-left: 20%;
 }
 
 #bioimage{
     float: right;
-    margin-right: 7%;
+    margin-bottom: 5%;
 }
 
 .heading{
-    font-size: 30px;
-    font-family: Impact;
+    font-size: 40px;
     text-align: center;
+    font-weight: bold;
+    color: black;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .qualione{
@@ -115,15 +109,14 @@ a{
 }
 
 .certimage{
-    display: inline;
     margin-left: 5%;
     margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 #copyright{
     border-top: black;
     border-top-style: groove;
-    margin-top: 3%;
     font-size: 30px;
     text-align: center;
     background-color: #5b1666;

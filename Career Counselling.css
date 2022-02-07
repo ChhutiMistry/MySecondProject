@@ -62,9 +62,9 @@ a{
 }
 
 #picture{
-    box-shadow: -20px 20px 10px #5b1666;
+    box-shadow: -20px -20px 10px #5b1666;
     float: left;
-    margin-top: 10%;
+    margin-top: 3%;
     margin-left: 3%;
 }
 
@@ -74,10 +74,10 @@ a{
 }
 
 #information{
-    box-shadow: 20px -20px 10px #5b1666;
+    box-shadow: 20px 20px 10px #5b1666;
     float: right;
-    margin-top: 3%;
     margin-right: 3%;
+    margin-bottom: 3%;
     height: 600px;
     width: 800px;
 }
@@ -88,16 +88,22 @@ a{
 
 .description{
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.descriptionhead{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
 }
 
 #button{
     font-size: 20px;
     color: #5b1666;
     font-weight: bold;
-    margin-top: 8%;
+    margin-top: 1%;
     margin-left: 70%;
     border-radius: 10%;
     box-shadow: 20px 20px 10px #5b1666;
@@ -106,7 +112,6 @@ a{
 #copyright{
     border-top: black;
     border-top-style: groove;
-    margin-top: 665px;
     font-size: 30px;
     text-align: center;
     background-color: #5b1666;

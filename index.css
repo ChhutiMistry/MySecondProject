@@ -158,13 +158,10 @@ a{
 }
 
 #reviewbox3{
-    border-style: double;
-    border-width: 6px;
-    height: 551px;
+    height: 560px;
     width: 392px;
     margin-top: 5%;
     margin-bottom: 3%;
-    margin-left: 36%;
 }
 
 #reviewimage3{

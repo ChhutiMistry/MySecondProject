@@ -61,18 +61,13 @@ a{
     text-decoration: none;
 }
 
-.image{
-    display: inline-block;
-}
-
 #box1{
     border-style: double;
     border-width: 6px;
-    height: 300px;
-    width: 700px;
-    margin-bottom: 3%;
-    margin-left: 5%;
-    display: inline-block;
+    height: 313px;
+    width: 712.5px;
+    margin-top: 5%;
+    margin-left: 6%;
 }
 
 #image1{
@@ -83,12 +78,10 @@ a{
 #box2{
     border-style: double;
     border-width: 6px;
-    height: 300px;
-    width: 600px;
-    margin-bottom: 3%;
-    margin-left: 3%;
+    height: 312.5px;
+    width: 612px;
     margin-top: 5%;
-    display: inline-block;
+    margin-left: 6%;
 }
 
 #image2{
@@ -97,28 +90,24 @@ a{
 }
 
 #box3{
-    border-style: double;
-    border-width: 6px;
-    height: 800px;
-    width: 600px;
-    margin-bottom: 3%;
-    margin-left: 30%;
-    display: inline-block;
+    height: 812px;
+    width: 613px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #image3{
     height: 800px;
-    width: 600px;
+    width: 620px;
 }
 
 #box4{
     border-style: double;
     border-width: 6px;
-    height: 350px;
-    width: 700px;
+    height: 363px;
+    width: 712px;
     margin-bottom: 3%;
     margin-left: 2%;
-    display: inline-block;
 }
 
 #image4{
@@ -129,11 +118,10 @@ a{
 #box5{
     border-style: double;
     border-width: 6px;
-    height: 400px;
-    width: 700px;
+    height: 412px;
+    width: 712px;
     margin-bottom: 3%;
-    margin-left: 2%;
-    display: inline-block;
+    margin-left: 1%;
 }
 
 #image5{
