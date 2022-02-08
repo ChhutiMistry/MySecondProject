@@ -131,73 +131,75 @@ a{
 #reviewbox1{
     border-style: double;
     border-width: 6px;
-    height: 412px;
-    width: 562px;
+    height: 527px;
+    width: 652px;
     margin-bottom: 3%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
-
+/*
 #reviewimage1{
     height: 400px;
     width: 550px;
 }
-
+*/
 #reviewbox2{
     border-style: double;
     border-width: 6px;
-    height: 412px;
-    width: 562px;
+    height: 544px;
+    width: 652.5px;
     margin-bottom: 3%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
-
+/*
 #reviewimage2{
     height: 400px;
     width: 550px;
 }
-
+*/
 #reviewbox3{
-    height: 560px;
-    width: 392px;
+    border-style: double;
+    border-width: 6px;
+    height: 824px;
+    width: 563px;
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
+/*
 #reviewimage3{
     height: 540px;
     width: 380px;
 }
-
+*/
 #reviewbox4{
     border-style: double;
     border-width: 6px;
-    height: 622px;
-    width: 482px;
+    height: 837px;
+    width: 563px;
     margin-bottom: 3%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
 }
-
+/*
 #reviewimage4{
     height: 610px;
     width: 470px;
 }
-
+*/
 #reviewbox5{
     border-style: double;
     border-width: 6px;
-    height: 613px;
-    width: 512px;
+    height: 854px;
+    width: 653px;
     margin-bottom: 3%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
 }
-
+/*
 #reviewimage5{
     height: 600px;
     width: 500px;
 }
-
+*/
 #copyright{
     border-top: black;
     border-top-style: groove;
