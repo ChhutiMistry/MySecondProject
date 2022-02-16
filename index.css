@@ -60,7 +60,12 @@ a{
 }
 
 .backgroundimage{
+    height: 570px;
     width: 100%;
+}
+
+.back{
+    height: 550px;
 }
 
 .know{
@@ -128,6 +133,10 @@ a{
 .reviewimage{
     width: 40%;
     margin: auto;
+}
+
+.revew{
+    height: auto;
 }
 
 .handreview{
