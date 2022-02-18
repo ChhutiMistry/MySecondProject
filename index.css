@@ -59,13 +59,12 @@ a{
     text-decoration: none;
 }
 
-.backgroundimage{
-    height: 570px;
-    width: 100%;
+.carousel-inner > .item > img{
+    height: 550px;
 }
 
-.back{
-    height: 550px;
+.backgroundimage{
+    width: 100%;
 }
 
 .know{
