@@ -54,9 +54,25 @@ a{
     border-left-style: solid;
 }
 
-#hyperserve{
+.hyperserve{
     color: #5b1666;
     text-decoration: none;
+}
+
+.hyperserve:hover{
+    color: #5b1666;
+}
+
+.hyperservee{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5b1666;
+    background-color: #a868ce;
+    text-decoration: none;
+}
+
+.hyperservee:hover{
+    color: #5b1666;
 }
 
 .carousel-inner > .item > img{
@@ -150,4 +166,9 @@ a{
     background-color: #5b1666;
     color: #a868ce;
     font-weight: bolder;
+}
+
+.mydark{
+    background-color: #3d2644;
+    color: white;
 }
