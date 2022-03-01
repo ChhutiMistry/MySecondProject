@@ -41,7 +41,7 @@ a{
 }
 
 #subheading{
-    height: 30px;
+    height: 35px;
     background-color: #a868ce;
     font-size: 25px;
     color: #5b1666;
@@ -69,6 +69,7 @@ a{
     color: #5b1666;
     background-color: #a868ce;
     text-decoration: none;
+    border: none;
 }
 
 .hyperservee:hover{
@@ -171,4 +172,62 @@ a{
 .mydark{
     background-color: #3d2644;
     color: white;
+}
+
+#coupon{
+    height: 300px;
+    width: 800px;
+    z-index: 1;
+    background-color: rgba(124, 121, 121, 0.8);
+    margin-top: 5%;
+    position: fixed;
+}
+
+.closecoupon{
+    float: right;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 15px -8px 10px rgb(54, 53, 53);
+}
+
+#couponlogo{
+    height: 50px;
+    width: 50px;
+}
+
+#piccoupon{
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: inline;
+}
+
+#headcoupon{
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(13, 13, 102);
+}
+
+#textcoupon{
+    font-size: 16px;
+    font-weight: bold;
+    color: #182d47;
+}
+
+#emailcoupon{
+    width: 42%;
+    margin-top: 2%;
+}
+
+#numbercoupon{
+    width: 42%;
+    margin-top: 2%;
+}
+
+.buttoncoupon{
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 5%;
 }

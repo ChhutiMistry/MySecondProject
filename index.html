@@ -14,7 +14,7 @@
     <body>
         <div class="container-fluid">
             <header>
-                <img src="https://i.ibb.co/h1Gdzb7/HB-logo.png" alt="Logo of Healing Blues" title="Healing Blues" id="logo">
+                <img src="https://i.ibb.co/h1Gdzb7/HB-logo.png" alt="Logo of Healing Blues" title="Healing Blues" id="logo"/>
                 <div id="name">
                     <h1>
                         <a href="index.html" id="hyperlink">HEALING BLUES</a>
@@ -48,11 +48,34 @@
                     <a href="listing.html" class="hyperserve">Services</a>
                 </span>
                 <span class="subhead">
-                    <button type="button" class="btn btn-outline hyperservee" onClick="changemode()">
+                    <button type="button" class="hyperservee" onClick="changemode()">
                         Dark/Light Mode
                     </button>
                 </span>
             </div>
+        </div>
+        <div class="container">
+            <div id="coupon">
+                <button type="button" class="closecoupon" onClick="closecoupon()">
+                    &times;
+                </button>
+                <img src="https://i.ibb.co/h1Gdzb7/HB-logo.png" alt="Logo of Healing Blues" title="Healing Blues" id="couponlogo"/>
+                <img src="https://i.ibb.co/b6tTVN5/Brain-Sun.jpg" alt="Mental Health" class="img-responsive" id="piccoupon"/>
+                <span id="headcoupon">
+                    Register for our Week-talks
+                </span>
+                <span id="textcoupon">
+                    The community of Healing Blues connect every Sunday at 10:00 AM IST and interact with each other with the aim of building a healthy community of people from all over the world discussing about development.
+                </span>
+                <input placeholder="Email Address" id="emailcoupon"/>
+                <input placeholder="Contact Number" id="numbercoupon"/>
+                <button type="submit" class="btn btn-primary buttoncoupon">
+                    Submit
+                </button>
+            </div>
+            <script>
+                window.onload="loadcoupon()"
+            </script>
         </div>
         <div id="Background" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
