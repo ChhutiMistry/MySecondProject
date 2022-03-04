@@ -8,5 +8,5 @@ function loadcoupon(){
 }
 
 function closecoupon(){
-    document.getElementById('coupon').style.display = 'none'
+    document.getElementById('coupon').style.display = 'none';
 }
