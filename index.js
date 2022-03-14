@@ -1,6 +1,8 @@
 function changemode(){
     var mybody = document.body;
+    var mycouponbutton = document.getElementById("closecou");
     mybody.classList.toggle(`mydark`);
+    mycouponbutton.classList.toggle(`mycouponbut`);
 }
 
 function loadcoupon(){
