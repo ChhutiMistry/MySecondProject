@@ -7,9 +7,6 @@ header{
     height: 58px;
     width: 58px;
     float: left;
-    border-style: outset;
-    border-color: #5b1666;
-    border-width: 2px;
 }
 
 #name{
@@ -86,16 +83,21 @@ a{
     width: 100%;
 }
 
-.know{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
     text-decoration: none;
     color: black;
 }
 
 .servicebox{
     border-style: double;
-    border-width: 6px;
-    height: 400px;
-    width: 350px;
+    border-width: 10px;
+    height: 412px;
+    width: 358px;
     margin-left: 14%;
     margin-right: 7%;
     margin-bottom: 15%;
@@ -110,11 +112,13 @@ a{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    margin-top: 2%;
 }
 
-#servicename1{
+.servicename1{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 2%;
 }
 
 .bioheading{
@@ -180,7 +184,7 @@ a{
     height: 300px;
     width: 800px;
     z-index: 100;
-    background-color: #7c7979cc;
+    background-color: #7e7b7bcc;
     margin-top: 5%;
     position: fixed;
 }
@@ -241,4 +245,8 @@ a{
 
 .mycouponbut{
     color: black;
+}
+
+.myservic{
+    color: white;
 }
