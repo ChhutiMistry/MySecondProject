@@ -125,9 +125,13 @@ a:hover{
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: #5b1666;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.bioheading > #myservice{
+    color: #5b1666;
 }
 
 .afterbio{
@@ -150,6 +154,9 @@ a:hover{
 #bioimage{
     float: right;
     margin-bottom: 5%;
+    border-color: #a868ce;
+    border-style: ridge;
+    border-width: 15px;
 }
 
 .reviewimage{
@@ -184,7 +191,7 @@ a:hover{
     height: 300px;
     width: 800px;
     z-index: 100;
-    background-color: #7e7b7bcc;
+    background-color: rgba(196, 180, 180, 0.8);
     margin-top: 5%;
     position: fixed;
 }
@@ -192,13 +199,13 @@ a:hover{
 .closecoupon{
     position: absolute;
     color: black;
-    margin-top: -28%;
-    margin-left: 44%;
+    margin-top: -27.5%;
+    margin-left: 45%;
     font-size: 30px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 10px -4px 10px #363535;
+    box-shadow: 7px -5px 10px #363535;
 }
 
 #couponlogo{
@@ -248,5 +255,9 @@ a:hover{
 }
 
 .myservic{
+    color: #fabfbf !important;
+}
+
+.myservice1{
     color: white;
 }
