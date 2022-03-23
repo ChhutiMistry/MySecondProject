@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="Career Counselling.css" rel="stylesheet" type="text/css">
+        <script src="Career Counselling.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -50,43 +51,133 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div id="picture">
-                        <img src="https://i.ibb.co/4dqtK3t/Career-Counselling.jpg" alt="Career Counselling" id="image"/>
-                    </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div id="information">
-                        <h1 id="heading">
-                            Career Counselling
-                        </h1>
-                        <p class="description">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img src="https://i.ibb.co/4dqtK3t/Career-Counselling.jpg" alt="Career Counselling" class="img-responsive picture" id="image"/>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" id="information">
+                    <h1 id="heading">
+                        Career Counselling
+                    </h1>
+                    <ul>
+                        <li class="description">
                             <span class="descriptionhead">
                                 Career Guidance =
                             </span>
                             Career guidance can be defined as a comprehensive, developmental program designed to assist individuals in making and implementing informed educational and occupational choices.
-                        </p>
-                        <p class="description">
+                        </li>
+                        <li class="description">
                             <span class="descriptionhead">
                                 Personal Guidance =
                             </span>
                             Personal guidance deals with all those problems of life which are not covered under educational & vocational guidance.
-                        </p>
-                        <p class="description">
+                        </li>
+                        <li class="description">
                             <span class="descriptionhead">
                                 Career Coaching =
                             </span>
                             The goal of career coaching is to empower professionals by helping them make informed decisions about their trajectory.
-                        </p>
-                        <p class="description">
+                        </li>
+                        <li class="description">
                             <span class="descriptionhead">
                                 Career Development =
                             </span>
                             Career development is the lifelong process of managing learning, work and transitions in order to move toward a personally determined.
-                        </p>
-                        <button class="btn btn-outline-primary" type="button" id="button">
-                            Book Appointment
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-primary" type="button" id="button" data-toggle="modal" data-target="#mymodal">
+                        Book Appointment
+                    </button>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                </div>
+            </div>
+        </div>
+        <div id="mymodal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">
+                            &times;
                         </button>
+                        <h4 class="modal-title">
+                            Appointment Booking
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="get">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <div class="form-group" id="infodonefirstname">
+                                        <label class="control-label" for="firstname">
+                                            First Name *
+                                        </label>
+                                        <span id="infoblankfirstname"></span>
+                                        <input type="text" class="form-control" placeholder="First Name" id="infofirstname" name="firstname" onblur="validateinfofirstname()" required/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <div class="form-group" id="infodonelastname">
+                                        <label class="control-label" for="lastname">
+                                            Last Name *
+                                        </label>
+                                        <span id="infoblanklastname"></span>
+                                        <input type="text" class="form-control" placeholder="Last Name" id="infolastname" name="lastname" onblur="validateinfolastname()" required/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <div class="form-group" id="infodoneemail">
+                                        <label class="control-label" for="email">
+                                            Email Address *
+                                        </label>
+                                        <span id="infoblankemail"></span>
+                                        <input type="email" class="form-control" placeholder="Email Address" id="infoemail" name="email" onblur="validateinfoemail()" required/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <div class="form-group" id="infodonenumber">
+                                        <label class="control-label" for="number">
+                                            Contact Number *
+                                        </label>
+                                        <span id="infoblanknumber"></span>
+                                        <input type="digits" class="form-control" placeholder="Contact Number" id="infonumber" name="phone" onblur="validateinfonumber()" minlength="10" required/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="infodonedate">
+                                <label class="control-label" for="date">
+                                    Date of Birth
+                                </label>
+                                <span id="infoblankdate"></span>
+                                <input type="date" class="form-control" id="infodate" name="date" onblur="validateinfodate()"/>
+                            </div>
+                            <div class="form-group" id="infodonemessage">
+                                <label class="control-label" for="message">
+                                    Message
+                                </label>
+                                <span id="infoblankmessage"></span>
+                                <textarea rows="3" type="text" class="form-control" id="infomessage" placeholder="Anything you would like to convey" onblur="validateinfomessage()"></textarea>
+                            </div>
+                            <div id="mybutton">
+                                <button type="submit" class="btn btn-success fbutton">
+                                    Submit and proceed for payment
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <span class="payment">
+                            * A payment of ₹ 100 is required to
+                        </span>
+                        <span id="paymentc">
+                            CONFIRM
+                        </span>
+                        <span class="payment">
+                            this Appointment *
+                        </span>
                     </div>
                 </div>
             </div>
