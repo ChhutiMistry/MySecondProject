@@ -70,6 +70,8 @@ a{
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 #afterbio{
@@ -79,14 +81,20 @@ a{
 
 #dataone{
     font-size: 40px;
+    font-family: emoji;
+    font-weight: bol;
 }
 
 #datatwo{
     font-size: 40px;
+    font-family: emoji;
+    font-weight: bod;
 }
 
 #datathree{
     font-size: 40px;
+    font-family: emoji;
+    font-weight:400;
 }
 
 #bioimage{

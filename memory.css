@@ -72,10 +72,12 @@ a{
 
 #box1{
     border-style: double;
-    border-width: 6px;
-    height: 746px;
+    border-width: 8px;
+    height: 774px;
     width: 460px;
+    margin-top: 1%;
     margin-bottom: 2%;
+    padding-top: 1%;
 }
 /*
 #image1{
